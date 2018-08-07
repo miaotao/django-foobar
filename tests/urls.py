@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from django_foobar.views import DeepThoughtView
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path(r'^deepthought/$', view=DeepThoughtView.as_view(), name='django_foobar_deepthought'),
 ]
