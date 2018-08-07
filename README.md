@@ -1,0 +1,4 @@
+# django-foobar
+
+
+TEST ONLY!
